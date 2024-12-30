@@ -2,10 +2,10 @@
     "name": "ayu-panda-theme",
     "displayName": "Ayu Panda Theme",
     "description": "Ayu Syntax with panda colors",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "shikari08",
     "repository": {
-        "url": "https://github.com/shikari08/panda-ayu-vscode.git",
+        "url": "https://github.com/shikari08/ayu-panda-theme",
         "type": "git"
     },
     "engines": {
@@ -23,7 +23,12 @@
             {
                 "label": "Ayu Panda Theme",
                 "uiTheme": "vs-dark",
-                "path": "./dist/ayu-panda-theme.json"
+                "path": "./dist/panda-theme.json"
+            },
+            {
+                "label": "Ayu Panda Theme Dark+",
+                "uiTheme": "vs-dark",
+                "path": "./dist/panda-theme-dark+.json"
             }
         ]
     }
